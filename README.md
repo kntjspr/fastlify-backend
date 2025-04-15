@@ -59,7 +59,7 @@ A Fastify-based backend API boilerplate with JWT authentication.
 
 5. Initialize the database
    ```bash
-   node src/db/setup.js
+   npm run setup
    ```
 
 6. Start the server
