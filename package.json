@@ -1,0 +1,25 @@
+{
+  "name": "goathub-clone-backend",
+  "version": "1.0.0",
+  "description": "Backend for GoatHub Clone with JWT Authentication",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup": "node src/db/setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.2",
+    "@fastify/rate-limit": "^8.0.3",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.0",
+    "pg": "^8.11.3",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
