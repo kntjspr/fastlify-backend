@@ -1,7 +1,7 @@
 {
-  "name": "goathub-clone-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Backend for GoatHub Clone with JWT Authentication",
+  "description": "Backend with JWT Authentication",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
